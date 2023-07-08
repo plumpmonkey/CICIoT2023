@@ -12,6 +12,20 @@ The dictionaries of attack types include:
 - 2 classes, which classifies traffic as either benign or malicious
 """
 
+from enum import Enum
+
+# Define the colours used for text printing
+class Colours(Enum):
+    RED = "\033[31m"
+    GREEN = "\033[32m"
+    YELLOW = "\033[33m"
+    BLUE = "\033[34m"
+    MAGENTA = "\033[35m"
+    CYAN = "\033[36m"
+    WHITE = "\033[37m"
+    BOLD = "\033[1m"
+    NORMAL = "\033[0m"
+
 # Columns used in the dataset
 X_columns = [
     'flow_duration', 'Header_Length', 'Protocol Type', 'Duration',
@@ -67,3 +81,4 @@ dict_2_classes = {  0: 0 ,                                                      
                     25: 1, 26: 1,                                                                                                                               # Spoofing
                     27: 1, 28: 1, 29: 1, 30: 1, 31: 1, 32: 1,                                                                                                   # Web
                     33: 1}                                                                                                                                      # Brute Force
+
