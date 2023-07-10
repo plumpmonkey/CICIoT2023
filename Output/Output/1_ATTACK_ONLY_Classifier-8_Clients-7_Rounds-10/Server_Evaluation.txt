@@ -1,17 +1,11 @@
-2023-07-09 21:40:53.359076 - 0 : Server evaluation complete - Accuracy: 0.2424, Loss: 2.1121
-2023-07-09 21:41:58.736793 - 1 : Server evaluation complete - Accuracy: 0.7506, Loss: 4.5324
-2023-07-09 21:43:07.366166 - 2 : Server evaluation complete - Accuracy: 0.7506, Loss: 8.0438
-2023-07-09 21:44:12.323541 - 3 : Server evaluation complete - Accuracy: 0.7506, Loss: 9.3087
-2023-07-09 21:45:20.346715 - 4 : Server evaluation complete - Accuracy: 0.7506, Loss: 11.3345
-2023-07-09 21:46:29.789005 - 5 : Server evaluation complete - Accuracy: 0.7506, Loss: 10.7779
-2023-07-09 21:47:39.814027 - 6 : Server evaluation complete - Accuracy: 0.7506, Loss: 10.8240
-2023-07-09 21:48:49.858106 - 7 : Server evaluation complete - Accuracy: 0.7506, Loss: 10.0168
-2023-07-09 21:49:59.519227 - 8 : Server evaluation complete - Accuracy: 0.7506, Loss: 9.4648
-2023-07-09 21:51:08.028061 - 9 : Server evaluation complete - Accuracy: 0.7506, Loss: 9.2754
-2023-07-09 21:52:18.403335 - 10 : Server evaluation complete - Accuracy: 0.7506, Loss: 8.7041
-
-INFO flwr 2023-07-09 21:52:20,604 | app.py:218 | app_fit: losses_distributed [(1, 0.7505058023931027), (2, 24.076096980343145), (3, 31.387000721887006), (4, 12.05324424933553), (5, 32.89363208321424), (6, 15.110507568588824), (7, 13.865882993014296), (8, 14.26466978529957), (9, 16.170632238374157), (10, 25.885374683024864)]
-INFO flwr 2023-07-09 21:52:20,605 | app.py:219 | app_fit: metrics_distributed_fit {}
-INFO flwr 2023-07-09 21:52:20,606 | app.py:220 | app_fit: metrics_distributed {}
-INFO flwr 2023-07-09 21:52:20,607 | app.py:221 | app_fit: losses_centralized [(0, 2.1121091842651367), (1, 4.532440185546875), (2, 8.043824195861816), (3, 9.308740615844727), (4, 11.334460258483887), (5, 10.777894973754883), (6, 10.824016571044922), (7, 10.016796112060547), (8, 9.464802742004395), (9, 9.275362014770508), (10, 8.704107284545898)]
-INFO flwr 2023-07-09 21:52:20,608 | app.py:222 | app_fit: metrics_centralized {'accuracy': [(0, 0.24239403009414673), (1, 0.7505519986152649), (2, 0.7505865693092346), (3, 0.7505930662155151), (4, 0.7505865693092346), (5, 0.7505909204483032), (6, 0.750595211982727), (7, 0.7505887150764465), (8, 0.7505887150764465), (9, 0.750595211982727), (10, 0.7505995631217957)]}
+2023-07-10 12:14:32.644490 - 0 : Server evaluation complete - Accuracy: 0.1999, Loss: 2.0640
+2023-07-10 12:25:51.125069 - 1 : Server evaluation complete - Accuracy: 0.7513, Loss: 8.3111
+2023-07-10 12:37:04.953287 - 2 : Server evaluation complete - Accuracy: 0.7513, Loss: 15.3818
+2023-07-10 12:48:26.527874 - 3 : Server evaluation complete - Accuracy: 0.7513, Loss: 18.7663
+2023-07-10 12:59:51.288101 - 4 : Server evaluation complete - Accuracy: 0.7513, Loss: 18.7364
+2023-07-10 13:11:58.639843 - 5 : Server evaluation complete - Accuracy: 0.7514, Loss: 20.3997
+2023-07-10 13:23:57.970900 - 6 : Server evaluation complete - Accuracy: 0.7514, Loss: 18.9417
+2023-07-10 13:36:54.770317 - 7 : Server evaluation complete - Accuracy: 0.7514, Loss: 18.5213
+2023-07-10 13:50:15.056059 - 8 : Server evaluation complete - Accuracy: 0.7514, Loss: 17.2232
+2023-07-10 14:03:57.953322 - 9 : Server evaluation complete - Accuracy: 0.7514, Loss: 16.1101
+2023-07-10 14:17:03.744567 - 10 : Server evaluation complete - Accuracy: 0.7514, Loss: 13.2906

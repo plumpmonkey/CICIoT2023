@@ -1,8 +1,4 @@
-2023-07-09 22:41:55.289328 - Client 29 evaluation complete - Accuracy: 0.998031, Loss: 0.018787
-2023-07-09 22:42:26.089746 - Client 29 evaluation complete - Accuracy: 0.999016, Loss: 0.014795
-2023-07-09 22:43:29.219480 - Client 29 evaluation complete - Accuracy: 0.999016, Loss: 0.018988
-2023-07-09 22:44:00.681065 - Client 29 evaluation complete - Accuracy: 0.999016, Loss: 0.019631
-2023-07-09 22:44:31.864171 - Client 29 evaluation complete - Accuracy: 0.999016, Loss: 0.020433
-2023-07-09 22:45:02.257357 - Client 29 evaluation complete - Accuracy: 0.999016, Loss: 0.021160
-2023-07-09 22:45:32.423520 - Client 29 evaluation complete - Accuracy: 0.999016, Loss: 0.021851
-2023-07-09 22:46:32.078799 - Client 29 evaluation complete - Accuracy: 0.999016, Loss: 0.022888
+2023-07-10 10:35:27.672895 - Client 29 evaluation complete - Accuracy: 0.998881, Loss: 0.018642
+2023-07-10 11:12:58.946900 - Client 29 evaluation complete - Accuracy: 0.998881, Loss: 0.046222
+2023-07-10 11:32:26.635719 - Client 29 evaluation complete - Accuracy: 0.998881, Loss: 0.053221
+2023-07-10 11:42:15.407387 - Client 29 evaluation complete - Accuracy: 0.998881, Loss: 0.056278

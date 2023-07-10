@@ -1,7 +1,4 @@
-2023-07-09 22:41:55.471369 - Client 3 evaluation complete - Accuracy: 0.169364, Loss: 2.309836
-2023-07-09 22:42:57.559474 - Client 3 evaluation complete - Accuracy: 0.169364, Loss: 1.944580
-2023-07-09 22:44:32.067266 - Client 3 evaluation complete - Accuracy: 0.176039, Loss: 1.663268
-2023-07-09 22:45:02.415948 - Client 3 evaluation complete - Accuracy: 0.179877, Loss: 1.589738
-2023-07-09 22:45:32.530179 - Client 3 evaluation complete - Accuracy: 0.181712, Loss: 1.526330
-2023-07-09 22:46:02.342364 - Client 3 evaluation complete - Accuracy: 0.184715, Loss: 1.493781
-2023-07-09 22:46:32.290438 - Client 3 evaluation complete - Accuracy: 0.187385, Loss: 1.474247
+2023-07-10 10:44:46.457411 - Client 3 evaluation complete - Accuracy: 0.168224, Loss: 3.434865
+2023-07-10 10:54:05.268431 - Client 3 evaluation complete - Accuracy: 0.168224, Loss: 3.034512
+2023-07-10 11:42:16.231425 - Client 3 evaluation complete - Accuracy: 0.173260, Loss: 1.697899
+2023-07-10 11:52:36.920777 - Client 3 evaluation complete - Accuracy: 0.168897, Loss: 1.798201
