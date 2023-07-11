@@ -1,0 +1,4 @@
+2023-07-11 15:47:36.595840 - Client 6 evaluation complete - Accuracy: 0.926969, Loss: 0.201710
+2023-07-11 15:58:08.791191 - Client 6 evaluation complete - Accuracy: 0.982964, Loss: 0.058410
+2023-07-11 17:03:54.765632 - Client 6 evaluation complete - Accuracy: 0.987421, Loss: 0.034385
+2023-07-11 17:15:32.406814 - Client 6 evaluation complete - Accuracy: 0.989072, Loss: 0.029552
