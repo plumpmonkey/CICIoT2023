@@ -1,0 +1,91 @@
+Client ID: 0
+fl_X_train.shape: (70629, 46)
+Training data used 1563808fl_y_train.value_counts():
+7    44990
+2    14646
+0     6106
+4     2705
+3     1971
+5      139
+6       72
+Name: label, dtype: int64
+fl_y_train.unique(): [7 2 0 4 3 6 5]
+
+Client ID: 1
+fl_X_train.shape: (244971, 46)
+Training data used 1563808fl_y_train.value_counts():
+1    188989
+7     44989
+0      6107
+4      2705
+3      1971
+5       138
+6        72
+Name: label, dtype: int64
+fl_y_train.unique(): [1 7 0 4 3 6 5]
+
+Client ID: 2
+fl_X_train.shape: (257646, 46)
+Training data used 1563808fl_y_train.value_counts():
+1    188989
+7     44989
+2     14646
+0      6107
+4      2705
+5       138
+6        72
+Name: label, dtype: int64
+fl_y_train.unique(): [1 0 2 7 4 5 6]
+
+Client ID: 3
+fl_X_train.shape: (256912, 46)
+Training data used 1563808fl_y_train.value_counts():
+1    188988
+7     44990
+2     14646
+0      6106
+3      1971
+5       139
+6        72
+Name: label, dtype: int64
+fl_y_train.unique(): [1 2 7 0 3 6 5]
+
+Client ID: 4
+fl_X_train.shape: (259478, 46)
+Training data used 1563808fl_y_train.value_counts():
+1    188988
+7     44990
+2     14646
+0      6106
+4      2705
+3      1971
+6        72
+Name: label, dtype: int64
+fl_y_train.unique(): [1 4 2 7 0 3 6]
+
+Client ID: 5
+fl_X_train.shape: (259545, 46)
+Training data used 1563808fl_y_train.value_counts():
+1    188988
+7     44990
+2     14646
+0      6106
+4      2705
+3      1971
+5       139
+Name: label, dtype: int64
+fl_y_train.unique(): [7 1 2 0 3 4 5]
+
+Client ID: 6
+fl_X_train.shape: (214627, 46)
+Training data used 1563808fl_y_train.value_counts():
+1    188988
+2     14646
+0      6106
+4      2705
+3      1971
+5       139
+6        72
+Name: label, dtype: int64
+fl_y_train.unique(): [1 2 0 3 4 6 5]
+

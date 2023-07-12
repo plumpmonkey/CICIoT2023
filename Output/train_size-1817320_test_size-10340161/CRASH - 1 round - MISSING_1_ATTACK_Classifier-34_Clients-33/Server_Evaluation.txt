@@ -1,0 +1,2 @@
+2023-07-12 07:27:20.578880 - 0 : Server evaluation complete - Accuracy: 0.0629, Loss: 3.7010
+2023-07-12 07:37:08.734317 - 1 : Server evaluation complete - Accuracy: 0.8085, Loss: 0.4374
