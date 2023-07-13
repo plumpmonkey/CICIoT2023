@@ -1,0 +1,1 @@
+2023-07-13 04:44:23.664700 - Client 16 evaluation complete - Accuracy: 0.525974, Loss: 1.883931
