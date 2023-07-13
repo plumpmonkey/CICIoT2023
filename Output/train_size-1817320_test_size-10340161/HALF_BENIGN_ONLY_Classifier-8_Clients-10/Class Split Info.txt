@@ -1,0 +1,105 @@
+Client ID: 0
+fl_X_train.shape: (4274, 46)
+Training data used 930032fl_y_train.value_counts():
+0    4274
+Name: label, dtype: int64
+fl_y_train.unique(): [0]
+
+Client ID: 1
+fl_X_train.shape: (181732, 46)
+Training data used 930032fl_y_train.value_counts():
+1    132292
+7     31493
+2     10252
+0      4274
+4      1894
+3      1380
+5        97
+6        50
+Name: label, dtype: int64
+fl_y_train.unique(): [1 7 2 0 4 3 6 5]
+
+Client ID: 2
+fl_X_train.shape: (4274, 46)
+Training data used 930032fl_y_train.value_counts():
+0    4274
+Name: label, dtype: int64
+fl_y_train.unique(): [0]
+
+Client ID: 3
+fl_X_train.shape: (181732, 46)
+Training data used 930032fl_y_train.value_counts():
+1    132292
+7     31493
+2     10252
+0      4274
+4      1894
+3      1380
+5        97
+6        50
+Name: label, dtype: int64
+fl_y_train.unique(): [1 7 0 2 4 3 5 6]
+
+Client ID: 4
+fl_X_train.shape: (4275, 46)
+Training data used 930032fl_y_train.value_counts():
+0    4275
+Name: label, dtype: int64
+fl_y_train.unique(): [0]
+
+Client ID: 5
+fl_X_train.shape: (181732, 46)
+Training data used 930032fl_y_train.value_counts():
+1    132292
+7     31493
+2     10252
+0      4275
+4      1893
+3      1379
+5        97
+6        51
+Name: label, dtype: int64
+fl_y_train.unique(): [1 7 0 2 3 4 6 5]
+
+Client ID: 6
+fl_X_train.shape: (4275, 46)
+Training data used 930032fl_y_train.value_counts():
+0    4275
+Name: label, dtype: int64
+fl_y_train.unique(): [0]
+
+Client ID: 7
+fl_X_train.shape: (181732, 46)
+Training data used 930032fl_y_train.value_counts():
+1    132292
+7     31492
+2     10253
+0      4275
+4      1893
+3      1379
+5        97
+6        51
+Name: label, dtype: int64
+fl_y_train.unique(): [1 2 7 3 4 0 6 5]
+
+Client ID: 8
+fl_X_train.shape: (4274, 46)
+Training data used 930032fl_y_train.value_counts():
+0    4274
+Name: label, dtype: int64
+fl_y_train.unique(): [0]
+
+Client ID: 9
+fl_X_train.shape: (181732, 46)
+Training data used 930032fl_y_train.value_counts():
+1    132291
+7     31493
+2     10252
+0      4274
+4      1894
+3      1380
+5        98
+6        50
+Name: label, dtype: int64
+fl_y_train.unique(): [1 7 2 0 3 4 6 5]
+
