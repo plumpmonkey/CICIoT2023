@@ -1,0 +1,36 @@
+2023-07-14 08:25:47.195997 - 1 : Server evaluation complete - Accuracy: 0.9908, Loss: 0.0201
+2023-07-14 08:59:36.186712 - 5 : Server evaluation complete - Accuracy: 0.9923, Loss: 0.0186
+2023-07-14 09:46:17.973753 - 10 : Server evaluation complete - Accuracy: 0.9928, Loss: 0.0205
+
+    2023-07-14 08:25:48.640518 - Client 0 evaluation complete - Accuracy: 0.991240, Loss: 0.018641
+    2023-07-14 08:25:48.634517 - Client 3 evaluation complete - Accuracy: 0.991152, Loss: 0.018910
+    2023-07-14 08:25:48.684358 - Client 5 evaluation complete - Accuracy: 0.990580, Loss: 0.020614
+B   2023-07-14 08:25:48.669355 - Client 8 evaluation complete - Accuracy: 0.991724, Loss: 0.018817
+    2023-07-14 08:25:48.605509 - Client 10 evaluation complete - Accuracy: 0.990975, Loss: 0.019104
+    2023-07-14 08:25:48.664354 - Client 12 evaluation complete - Accuracy: 0.991020, Loss: 0.018650
+    2023-07-14 08:25:48.633516 - Client 13 evaluation complete - Accuracy: 0.991460, Loss: 0.018703
+    2023-07-14 08:25:48.688359 - Client 14 evaluation complete - Accuracy: 0.991372, Loss: 0.019488
+W   2023-07-14 08:25:48.674356 - Client 17 evaluation complete - Accuracy: 0.989479, Loss: 0.022693
+    2023-07-14 08:25:48.662353 - Client 18 evaluation complete - Accuracy: 0.991020, Loss: 0.020519
+
+    2023-07-14 08:59:37.557071 - Client 1 evaluation complete - Accuracy: 0.992076, Loss: 0.016494
+W   2023-07-14 08:59:37.493057 - Client 2 evaluation complete - Accuracy: 0.991768, Loss: 0.016796
+    2023-07-14 08:59:37.561072 - Client 3 evaluation complete - Accuracy: 0.993265, Loss: 0.015922
+    2023-07-14 08:59:37.566074 - Client 6 evaluation complete - Accuracy: 0.993309, Loss: 0.015455
+B   2023-07-14 08:59:37.584077 - Client 8 evaluation complete - Accuracy: 0.993353, Loss: 0.016576
+    2023-07-14 08:59:37.553070 - Client 9 evaluation complete - Accuracy: 0.992032, Loss: 0.017802
+    2023-07-14 08:59:37.540067 - Client 12 evaluation complete - Accuracy: 0.992472, Loss: 0.016619
+    2023-07-14 08:59:37.559072 - Client 14 evaluation complete - Accuracy: 0.992164, Loss: 0.016540
+    2023-07-14 08:59:37.562072 - Client 16 evaluation complete - Accuracy: 0.991900, Loss: 0.016549
+    2023-07-14 08:59:37.513061 - Client 17 evaluation complete - Accuracy: 0.990887, Loss: 0.021328
+
+    2023-07-14 09:46:19.520703 - Client 0 evaluation complete - Accuracy: 0.993617, Loss: 0.015602
+    2023-07-14 09:46:19.516702 - Client 1 evaluation complete - Accuracy: 0.992605, Loss: 0.015632
+B   2023-07-14 09:46:19.571560 - Client 3 evaluation complete - Accuracy: 0.993837, Loss: 0.015228
+    2023-07-14 09:46:19.581578 - Client 7 evaluation complete - Accuracy: 0.992649, Loss: 0.016248
+    2023-07-14 09:46:19.601574 - Client 12 evaluation complete - Accuracy: 0.992868, Loss: 0.015528
+    2023-07-14 09:46:19.553556 - Client 13 evaluation complete - Accuracy: 0.993177, Loss: 0.015917
+    2023-07-14 09:46:19.573560 - Client 14 evaluation complete - Accuracy: 0.992516, Loss: 0.016050
+    2023-07-14 09:46:19.552556 - Client 15 evaluation complete - Accuracy: 0.992957, Loss: 0.016542
+    2023-07-14 09:46:19.569559 - Client 16 evaluation complete - Accuracy: 0.992560, Loss: 0.015987
+W   2023-07-14 09:46:19.545555 - Client 17 evaluation complete - Accuracy: 0.991856, Loss: 0.025301
