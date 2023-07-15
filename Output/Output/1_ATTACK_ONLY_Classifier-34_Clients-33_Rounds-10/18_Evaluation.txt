@@ -1,1 +1,0 @@
-2023-07-10 11:22:32.988804 - Client 18 evaluation complete - Accuracy: 0.551280, Loss: 2.778500

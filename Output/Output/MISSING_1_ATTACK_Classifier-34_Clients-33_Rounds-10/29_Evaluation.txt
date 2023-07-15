@@ -1,4 +1,0 @@
-2023-07-09 22:23:35.889300 - Client 29 evaluation complete - Accuracy: 0.821899, Loss: 0.394652
-2023-07-09 22:27:06.688500 - Client 29 evaluation complete - Accuracy: 0.854292, Loss: 0.324921
-2023-07-09 22:30:12.469245 - Client 29 evaluation complete - Accuracy: 0.892218, Loss: 0.248533
-2023-07-09 22:32:17.158780 - Client 29 evaluation complete - Accuracy: 0.940980, Loss: 0.200176

@@ -1,4 +1,0 @@
-2023-07-09 22:05:05.884938 - Client 4 evaluation complete - Accuracy: 0.959055, Loss: 0.210136
-2023-07-09 22:08:21.566102 - Client 4 evaluation complete - Accuracy: 0.946682, Loss: 0.221361
-2023-07-09 22:11:35.381819 - Client 4 evaluation complete - Accuracy: 0.950506, Loss: 0.214263
-2023-07-09 22:13:16.767137 - Client 4 evaluation complete - Accuracy: 0.944207, Loss: 0.239868

@@ -1,3 +1,0 @@
-2023-07-10 11:22:32.974801 - Client 21 evaluation complete - Accuracy: 0.930295, Loss: 2.264792
-2023-07-10 11:32:26.143643 - Client 21 evaluation complete - Accuracy: 0.930295, Loss: 2.489649
-2023-07-10 11:52:35.813714 - Client 21 evaluation complete - Accuracy: 0.930295, Loss: 2.932743
