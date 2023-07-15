@@ -19,12 +19,16 @@ def extract_data(filename):
         if "Client ID" in line:
             if client_id is not None:
                 data.append((client_id, total_samples, benign_samples, attack_samples))
-            client_id = int(re.search(r'\d+', line).group())
+            match = re.search(r'\d+', line)
+            if match:
+                client_id = int(match.group())
             total_samples = None
             benign_samples = None
             attack_samples = None
         elif "fl_X_train.shape" in line:
-            total_samples = int(re.search(r'\((\d+),', line).group(1))
+            match = re.search(r'\((\d+),', line)
+            if match:
+                total_samples = int(match.group(1))
         elif "fl_y_train.value_counts()" in line:
             benign_samples = 0
             attack_samples = 0
@@ -35,7 +39,14 @@ def extract_data(filename):
                 if label == 0:
                     benign_samples = count
                 else:
-                    attack_samples += count
+                    if len(parts) == 2:
+                        label, count = map(int, parts)
+                        if label == 0:
+                            benign_samples = count
+                        else:
+                            if attack_samples is None:
+                                attack_samples = 0
+                            attack_samples += count
     
     if client_id is not None:
         data.append((client_id, total_samples, benign_samples, attack_samples))
