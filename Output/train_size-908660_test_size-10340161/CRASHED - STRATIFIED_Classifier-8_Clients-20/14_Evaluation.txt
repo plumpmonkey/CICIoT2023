@@ -1,1 +1,0 @@
-2023-07-12 22:38:33.246361 - Client 14 evaluation complete - Accuracy: 0.895076, Loss: 0.244464
