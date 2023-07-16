@@ -1,11 +1,14 @@
 import os
 import re
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 def extract_data(filename):
+    """
+    Extracts data from the given filename.
+
+    Each line in the file is read and data is extracted based on the line content.
+    """
     with open(filename) as f:
         lines = f.readlines()
     
@@ -17,8 +20,10 @@ def extract_data(filename):
 
     for line in lines:
         if "Client ID" in line:
+            # If client_id is already set, append data
             if client_id is not None:
                 data.append((client_id, total_samples, benign_samples, attack_samples))
+            # Extract client_id from line
             match = re.search(r'\d+', line)
             if match:
                 client_id = int(match.group())
@@ -26,6 +31,7 @@ def extract_data(filename):
             benign_samples = None
             attack_samples = None
         elif "fl_X_train.shape" in line:
+            # Extract total_samples from line
             match = re.search(r'\((\d+),', line)
             if match:
                 total_samples = int(match.group(1))
@@ -39,21 +45,19 @@ def extract_data(filename):
                 if label == 0:
                     benign_samples = count
                 else:
-                    if len(parts) == 2:
-                        label, count = map(int, parts)
-                        if label == 0:
-                            benign_samples = count
-                        else:
-                            if attack_samples is None:
-                                attack_samples = 0
-                            attack_samples += count
+                    attack_samples = attack_samples or 0
+                    attack_samples += count
     
+    # Append the last set of data
     if client_id is not None:
         data.append((client_id, total_samples, benign_samples, attack_samples))
    
     return data
 
 def plot_data(data, output_filename):
+    """
+    Plots the data and saves it as a PNG file.
+    """
     data_array = np.array(data)
     client_ids = data_array[:, 0]
     total_samples = data_array[:, 1]
@@ -76,22 +80,38 @@ def plot_data(data, output_filename):
     plt.legend()
 
     # The plot title should be the name of the current directories parent directory name + current directory name
-    title = os.path.basename(os.path.dirname(os.path.dirname(output_filename))) + " - " + os.path.basename(os.path.dirname(output_filename))
+    title = f"{os.path.basename(os.path.dirname(os.path.dirname(output_filename)))} - {os.path.basename(os.path.dirname(output_filename))}"
     plt.title(title)
 
-    plt.savefig(output_filename, format='png')
+    # Append ".eps" to the output_filename
+    output_filename_eps = output_filename + ".eps"
+
+    # Save the plot as a EPS file
+    plt.savefig(output_filename, format='eps', dpi=1000, bbox_inches='tight')
+
+    # Append ".png" to the output_filename
+    output_filename_png = output_filename + ".png"
+
+    # Save the plot as a PNG file
+    plt.savefig(output_filename_png, format='png')
+
     plt.show()
     plt.close()
 
 def process_directory(root_dir):
+    """
+    Walks through the directories starting from root_dir,
+    looks for "Class Split Info.txt" files, extracts data from them,
+    and plots the data.
+    """
     for subdir, dirs, files in os.walk(root_dir):
         print(f"Examining directory: {subdir}")
         for file in files:
             if file == "Class Split Info.txt":
-                print(f"Found Class Split Info.txt")
+                print("Found Class Split Info.txt")
                 input_file = os.path.join(subdir, file)
                 data = extract_data(input_file)
-                output_file = os.path.join(subdir, "Class_split_info.png")
+                output_file = os.path.join(subdir, "Class_split_info")
                 plot_data(data, output_file)
 
 # Example usage:
